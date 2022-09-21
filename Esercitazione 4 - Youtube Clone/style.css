@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    width: 100%;
+}
+
+.topbar {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.icon {
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2em;
+    cursor: pointer;
+}
+
+.icon ion-icon {
+    font-size: 2em;
+}
+
+.icon p {
+    margin: 0;
+}
+
+.icon:not(:first-of-type) {
+    height: 16vh;
+}
+
+.logo {
+    height: 50%;
+}
+
+.search-wrapper {
+    display: flex;
+    height: 50%;
+    width: 30%;
+}
+
+.search-wrapper input {
+    width: 100%;
+    padding: 0 1em;
+}
+
+.icons-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.top-icon {
+    font-size: 2em;
+    padding: 0 0.5em;
+}
+
+.mic-icon {
+    display: flex;
+    align-items: center;
+}
+
+.search-btn {
+    padding: 0 0.7em;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.video-wrapper {
+    width: 30%;
+    height: auto;
+}
+
+.thumb-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.thumb-logo img {
+    width: 3em;
+}
+
+.info {
+    margin-left: 10px;
+}
+
+.info h3,
+p {
+    margin: 0;
+}
+
+.info p {
+    opacity: 70%;
+}
